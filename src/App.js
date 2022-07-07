@@ -6,11 +6,11 @@ function App() {
   const [counter, setCounter] = useState(0);
 
   const handleAdd = () => {
-    setCounter(counter + 1);
+    setCounter(counter + 5);
   };
 
   const handleReduce = () => {
-    setCounter(counter - 1);
+    setCounter(counter - 5);
   };
   return (
     <div className="App">

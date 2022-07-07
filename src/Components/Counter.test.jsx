@@ -11,7 +11,7 @@ describe("Conter Tests", () => {
 
     let buttonAdd = screen.getByText("ADD");
     fireEvent.click(buttonAdd);
-    expect(h1).toHaveTextContent(+1);
+    expect(h1).toHaveTextContent(+5);
   });
 
   it("should chenge counter decrement", () => {
@@ -22,7 +22,7 @@ describe("Conter Tests", () => {
 
     let buttonreduce = screen.getByText("REDUCE");
     fireEvent.click(buttonreduce);
-    expect(h1).toHaveTextContent(-1);
+    expect(h1).toHaveTextContent(-5);
   });
 
   it("sould call the given function for add btn", () => {
